@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+	int R,V,T,D,L;
+	scanf("%d %d %d",	&T, &V, &R);
+	D = T * V;
+	L = D/R;
+	printf("R = %d\nV = %d\nT = %d\nD = %d\nL = %d", R, V, T, D, L);
 }
+
+
+
