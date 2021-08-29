@@ -1,8 +1,15 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+	int v[10];
+
+	for( int i = 0; i<10; i++){
+		scanf("%d",&v[i]);
+	}
+
+	for( int j = 9; j>=0; j--){
+		printf("%d\n",v[j]);
+	}
+
+	return 0;
 }
